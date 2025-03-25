@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SISWin
 {
-    public partial class FormSeansYonetimi : Form
+    public partial class FormYeniSeans: Form
     {
-        public FormSeansYonetimi()
+        public FormYeniSeans()
         {
             InitializeComponent();
         }

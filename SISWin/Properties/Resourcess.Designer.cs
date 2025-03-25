@@ -22,14 +22,14 @@ namespace SISWin.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Resourcess {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Resourcess() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SISWin.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SISWin.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SISWin.Properties.Resourcess", typeof(Resourcess).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -66,6 +66,26 @@ namespace SISWin.Properties {
         internal static System.Drawing.Bitmap hastane {
             get {
                 object obj = ResourceManager.GetObject("hastane", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_865588942_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-865588942-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,29 +123,10 @@ namespace SISWin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kişibaşınadusen {
+        internal static System.Drawing.Bitmap png_transparent_red_cross_cancel_cancelled_cancellation_symbol_icon_sign_thumbnail {
             get {
-                object obj = ResourceManager.GetObject("kişibaşınadusen", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap messi {
-            get {
-                object obj = ResourceManager.GetObject("messi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap r54uoohf {
-            get {
-                object obj = ResourceManager.GetObject("r54uoohf", resourceCulture);
+                object obj = ResourceManager.GetObject("png-transparent-red-cross-cancel-cancelled-cancellation-symbol-icon-sign-thumbnai" +
+                        "l", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -136,16 +137,6 @@ namespace SISWin.Properties {
         internal static System.Drawing.Bitmap unnamed {
             get {
                 object obj = ResourceManager.GetObject("unnamed", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap WhatsApp_Image_2025_01_05_at_4_51_37_PM {
-            get {
-                object obj = ResourceManager.GetObject("WhatsApp Image 2025-01-05 at 4.51.37 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

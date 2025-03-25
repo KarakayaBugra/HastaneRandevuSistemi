@@ -58,17 +58,47 @@
     <Compile Include="FormGiris.Designer.cs">
       <DependentUpon>FormGiris.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHastaRandevuYönet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHastaRandevuYönet.Designer.cs">
+      <DependentUpon>FormHastaRandevuYönet.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormParolaSifirla.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormParolaSifirla.Designer.cs">
       <DependentUpon>FormParolaSifirla.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSeansYonetimi.cs">
+    <Compile Include="FormRandevuKaydet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSeansYonetimi.Designer.cs">
-      <DependentUpon>FormSeansYonetimi.cs</DependentUpon>
+    <Compile Include="FormRandevuKaydet.Designer.cs">
+      <DependentUpon>FormRandevuKaydet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeansYonetimii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeansYonetimii.Designer.cs">
+      <DependentUpon>FormSeansYonetimii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSeansİptalEt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSeansİptalEt.Designer.cs">
+      <DependentUpon>FormSeansİptalEt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUzmanSeansYönetimi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUzmanSeansYönetimi.Designer.cs">
+      <DependentUpon>FormUzmanSeansYönetimi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormYeniSeans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormYeniSeans.Designer.cs">
+      <DependentUpon>FormYeniSeans.cs</DependentUpon>
     </Compile>
     <Compile Include="Hasta Bilgisi.cs">
       <SubType>Form</SubType>
@@ -108,8 +138,26 @@
     <EmbeddedResource Include="FormGiris.resx">
       <DependentUpon>FormGiris.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormHastaRandevuYönet.resx">
+      <DependentUpon>FormHastaRandevuYönet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormParolaSifirla.resx">
       <DependentUpon>FormParolaSifirla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRandevuKaydet.resx">
+      <DependentUpon>FormRandevuKaydet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeansYonetimii.resx">
+      <DependentUpon>FormSeansYonetimii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSeansİptalEt.resx">
+      <DependentUpon>FormSeansİptalEt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUzmanSeansYönetimi.resx">
+      <DependentUpon>FormUzmanSeansYönetimi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormYeniSeans.resx">
+      <DependentUpon>FormYeniSeans.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hasta Bilgisi.resx">
       <DependentUpon>Hasta Bilgisi.cs</DependentUpon>
@@ -117,14 +165,14 @@
     <EmbeddedResource Include="Parola Değiştirme.resx">
       <DependentUpon>Parola Değiştirme.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resources.resx">
+    <EmbeddedResource Include="Properties\Resourcess.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resourcess.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
+    <Compile Include="Properties\Resourcess.Designer.cs">
       <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
+      <DependentUpon>Resourcess.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Sekreter.resx">
@@ -175,6 +223,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-865588942-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-red-cross-cancel-cancelled-cancellation-symbol-icon-sign-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
